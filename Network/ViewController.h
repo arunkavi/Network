@@ -8,8 +8,5 @@
 
 @interface ViewController : UIViewController
 
-@property (weak, nonatomic) IBOutlet UILabel *connectionLabel;
-@property (weak, nonatomic) IBOutlet UILabel *internetLabel;
-
 @end
 

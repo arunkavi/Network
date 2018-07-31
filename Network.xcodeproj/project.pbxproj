@@ -13,8 +13,6 @@
 		417A753E1BB9724B000706A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 417A753C1BB9724B000706A8 /* Main.storyboard */; };
 		417A75401BB9724B000706A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 417A753F1BB9724B000706A8 /* Assets.xcassets */; };
 		417A75431BB9724B000706A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 417A75411BB9724B000706A8 /* LaunchScreen.storyboard */; };
-		417A754C1BB972E6000706A8 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 417A754B1BB972E6000706A8 /* Reachability.m */; };
-		41B4B2C11BBAC40100A1C823 /* getgateway.c in Sources */ = {isa = PBXBuildFile; fileRef = 41B4B2BF1BBAC40100A1C823 /* getgateway.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,11 +26,6 @@
 		417A753F1BB9724B000706A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		417A75421BB9724B000706A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		417A75441BB9724B000706A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		417A754A1BB972E6000706A8 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
-		417A754B1BB972E6000706A8 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
-		41B4B2BD1BBAC36300A1C823 /* route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = route.h; sourceTree = "<group>"; };
-		41B4B2BF1BBAC40100A1C823 /* getgateway.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = getgateway.c; sourceTree = "<group>"; };
-		41B4B2C01BBAC40100A1C823 /* getgateway.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = getgateway.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,16 +58,11 @@
 		417A75321BB9724B000706A8 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				417A754A1BB972E6000706A8 /* Reachability.h */,
-				417A754B1BB972E6000706A8 /* Reachability.m */,
 				417A75361BB9724B000706A8 /* AppDelegate.h */,
 				417A75371BB9724B000706A8 /* AppDelegate.m */,
 				417A75391BB9724B000706A8 /* ViewController.h */,
 				417A753A1BB9724B000706A8 /* ViewController.m */,
 				417A753C1BB9724B000706A8 /* Main.storyboard */,
-				41B4B2BF1BBAC40100A1C823 /* getgateway.c */,
-				41B4B2C01BBAC40100A1C823 /* getgateway.h */,
-				41B4B2BD1BBAC36300A1C823 /* route.h */,
 				417A753F1BB9724B000706A8 /* Assets.xcassets */,
 				417A75411BB9724B000706A8 /* LaunchScreen.storyboard */,
 				417A75441BB9724B000706A8 /* Info.plist */,
@@ -165,8 +153,6 @@
 			files = (
 				417A753B1BB9724B000706A8 /* ViewController.m in Sources */,
 				417A75381BB9724B000706A8 /* AppDelegate.m in Sources */,
-				41B4B2C11BBAC40100A1C823 /* getgateway.c in Sources */,
-				417A754C1BB972E6000706A8 /* Reachability.m in Sources */,
 				417A75351BB9724B000706A8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
